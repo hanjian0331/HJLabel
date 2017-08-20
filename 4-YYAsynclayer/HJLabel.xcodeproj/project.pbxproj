@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FC6DCB2FC2D61D8BF2DA0FC /* Pods_HJLabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 890399FA69A097890E7E321C /* Pods_HJLabel.framework */; };
+		503F9FC91EB82042009CD9DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503F9FC81EB82042009CD9DE /* AppDelegate.swift */; };
+		503F9FCB1EB82042009CD9DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503F9FCA1EB82042009CD9DE /* ViewController.swift */; };
+		503F9FCE1EB82042009CD9DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 503F9FCC1EB82042009CD9DE /* Main.storyboard */; };
+		503F9FD01EB82042009CD9DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 503F9FCF1EB82042009CD9DE /* Assets.xcassets */; };
+		503F9FD31EB82042009CD9DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 503F9FD11EB82042009CD9DE /* LaunchScreen.storyboard */; };
+		503F9FDB1EB82059009CD9DE /* HJLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503F9FDA1EB82059009CD9DE /* HJLabel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		503F9FC51EB82042009CD9DE /* HJLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HJLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		503F9FC81EB82042009CD9DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		503F9FCA1EB82042009CD9DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		503F9FCD1EB82042009CD9DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		503F9FCF1EB82042009CD9DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		503F9FD21EB82042009CD9DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		503F9FD41EB82042009CD9DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		503F9FDA1EB82059009CD9DE /* HJLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HJLabel.swift; sourceTree = "<group>"; };
+		7D3346561AFE1216907B4D68 /* Pods-HJLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HJLabel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HJLabel/Pods-HJLabel.debug.xcconfig"; sourceTree = "<group>"; };
+		890399FA69A097890E7E321C /* Pods_HJLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HJLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8513B6363E4977C1B16BF61 /* Pods-HJLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HJLabel.release.xcconfig"; path = "Pods/Target Support Files/Pods-HJLabel/Pods-HJLabel.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		503F9FC21EB82042009CD9DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FC6DCB2FC2D61D8BF2DA0FC /* Pods_HJLabel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		297B092A04E03DEA9984BC41 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D3346561AFE1216907B4D68 /* Pods-HJLabel.debug.xcconfig */,
+				B8513B6363E4977C1B16BF61 /* Pods-HJLabel.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3CE7028B7C85FD24E4741C6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				890399FA69A097890E7E321C /* Pods_HJLabel.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		503F9FBC1EB82042009CD9DE = {
+			isa = PBXGroup;
+			children = (
+				503F9FC71EB82042009CD9DE /* HJLabel */,
+				503F9FC61EB82042009CD9DE /* Products */,
+				297B092A04E03DEA9984BC41 /* Pods */,
+				3CE7028B7C85FD24E4741C6E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		503F9FC61EB82042009CD9DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				503F9FC51EB82042009CD9DE /* HJLabel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		503F9FC71EB82042009CD9DE /* HJLabel */ = {
+			isa = PBXGroup;
+			children = (
+				503F9FDA1EB82059009CD9DE /* HJLabel.swift */,
+				503F9FC81EB82042009CD9DE /* AppDelegate.swift */,
+				503F9FCA1EB82042009CD9DE /* ViewController.swift */,
+				503F9FCC1EB82042009CD9DE /* Main.storyboard */,
+				503F9FCF1EB82042009CD9DE /* Assets.xcassets */,
+				503F9FD11EB82042009CD9DE /* LaunchScreen.storyboard */,
+				503F9FD41EB82042009CD9DE /* Info.plist */,
+			);
+			path = HJLabel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		503F9FC41EB82042009CD9DE /* HJLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 503F9FD71EB82042009CD9DE /* Build configuration list for PBXNativeTarget "HJLabel" */;
+			buildPhases = (
+				0B65772AD427E952F2873BB3 /* [CP] Check Pods Manifest.lock */,
+				503F9FC11EB82042009CD9DE /* Sources */,
+				503F9FC21EB82042009CD9DE /* Frameworks */,
+				503F9FC31EB82042009CD9DE /* Resources */,
+				B2675FF2799648C08B703A54 /* [CP] Embed Pods Frameworks */,
+				7CDF2D32EA367DCFAD61744F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HJLabel;
+			productName = HJLabel;
+			productReference = 503F9FC51EB82042009CD9DE /* HJLabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		503F9FBD1EB82042009CD9DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "罕见";
+				TargetAttributes = {
+					503F9FC41EB82042009CD9DE = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = CH6QR5SEAC;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 503F9FC01EB82042009CD9DE /* Build configuration list for PBXProject "HJLabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 503F9FBC1EB82042009CD9DE;
+			productRefGroup = 503F9FC61EB82042009CD9DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				503F9FC41EB82042009CD9DE /* HJLabel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		503F9FC31EB82042009CD9DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				503F9FD31EB82042009CD9DE /* LaunchScreen.storyboard in Resources */,
+				503F9FD01EB82042009CD9DE /* Assets.xcassets in Resources */,
+				503F9FCE1EB82042009CD9DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B65772AD427E952F2873BB3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HJLabel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CDF2D32EA367DCFAD61744F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HJLabel/Pods-HJLabel-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2675FF2799648C08B703A54 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HJLabel/Pods-HJLabel-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/YYAsyncLayer/YYAsyncLayer.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYAsyncLayer.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HJLabel/Pods-HJLabel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		503F9FC11EB82042009CD9DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				503F9FDB1EB82059009CD9DE /* HJLabel.swift in Sources */,
+				503F9FCB1EB82042009CD9DE /* ViewController.swift in Sources */,
+				503F9FC91EB82042009CD9DE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		503F9FCC1EB82042009CD9DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				503F9FCD1EB82042009CD9DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		503F9FD11EB82042009CD9DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				503F9FD21EB82042009CD9DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		503F9FD51EB82042009CD9DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		503F9FD61EB82042009CD9DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		503F9FD81EB82042009CD9DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D3346561AFE1216907B4D68 /* Pods-HJLabel.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CH6QR5SEAC;
+				INFOPLIST_FILE = HJLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HJ.HJLabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		503F9FD91EB82042009CD9DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8513B6363E4977C1B16BF61 /* Pods-HJLabel.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CH6QR5SEAC;
+				INFOPLIST_FILE = HJLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HJ.HJLabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		503F9FC01EB82042009CD9DE /* Build configuration list for PBXProject "HJLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				503F9FD51EB82042009CD9DE /* Debug */,
+				503F9FD61EB82042009CD9DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		503F9FD71EB82042009CD9DE /* Build configuration list for PBXNativeTarget "HJLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				503F9FD81EB82042009CD9DE /* Debug */,
+				503F9FD91EB82042009CD9DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 503F9FBD1EB82042009CD9DE /* Project object */;
+}

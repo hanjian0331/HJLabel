@@ -25,7 +25,7 @@ class HJLabelLayer: CALayer {
         
         let bounds = self.bounds
         let contentsScale = self.contentsScale
-        let isOpaque = label.backgroundColor != nil && label.backgroundColor != .clear
+        let isOpaque = label.isOpaque
 
         
         DispatchQueue.global().async { [weak self] in
@@ -43,7 +43,11 @@ class HJLabelLayer: CALayer {
             
             //3
             if isOpaque {
-                label.backgroundColor?.set()
+                if label.backgroundColor != nil {
+                    label.backgroundColor?.setFill()
+                } else {
+                    UIColor.white.setFill()
+                }
                 ctx.fill(bounds)
             }
             
@@ -93,6 +97,7 @@ class HJLabelLayer: CALayer {
             
             //1
             let line = unsafeBitCast(CFArrayGetValueAtIndex(lines, lineIndex), to: CTLine.self)
+            //1.1
             CTLineDraw(line, ctx)
             
             //2
@@ -101,6 +106,9 @@ class HJLabelLayer: CALayer {
                 var runAscent: CGFloat = 0
                 var runDescent: CGFloat = 0
                 let run = runs[j]
+                
+                //2.1
+//                CTRunDraw(run, ctx, CFRangeMake(0, 0))
                 
                 let attributes = CTRunGetAttributes(run) as! [String: Any]
                 

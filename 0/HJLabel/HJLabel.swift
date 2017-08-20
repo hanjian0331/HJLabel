@@ -11,7 +11,11 @@ import UIKit
 @IBDesignable
 class HJLabel: UIView {
 
-    @IBInspectable var text: String? { didSet{ setNeedsDisplay() } }
+    @IBInspectable var text: String? {
+        didSet {
+            setNeedsDisplay()
+        }
+    }
     
     override func draw(_ rect: CGRect) {
         text?.draw(at: .zero, withAttributes: nil)

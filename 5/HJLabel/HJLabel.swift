@@ -17,7 +17,7 @@ class HJLabel: UIView {
     var textAlignment: NSTextAlignment = .left { didSet{ setNeedsDisplay() } }
     var lineBreakMode: NSLineBreakMode = .byWordWrapping { didSet{ setNeedsDisplay() } }
     
-    private var highlightRange: NSRange? { didSet{ setNeedsDisplay() } }
+    private var highlightRange: NSRange? { didSet{ setNeedsDisplay() } } //new
     
     lazy var framesDict: [String: CGRect] = [:] // 可以点击高亮的位置
     
@@ -37,7 +37,7 @@ class HJLabel: UIView {
             attributes[NSForegroundColorAttributeName] = textColor
             attributes[NSParagraphStyleAttributeName] = paragraphStyle
             
-            let attString = NSMutableAttributedString(string: text!, attributes: attributes).highlightText(range: highlightRange)
+            let attString = NSMutableAttributedString(string: text!, attributes: attributes).highlightText(range: highlightRange) //new
             return attString
         }
     }

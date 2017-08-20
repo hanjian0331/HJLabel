@@ -46,7 +46,7 @@ class HJLabel: UIView {
         
         //4
         let framesetter = CTFramesetterCreateWithAttributedString(attString)
-        
+    
         //5
         let path = CGMutablePath()
         path.addRect(rect)
